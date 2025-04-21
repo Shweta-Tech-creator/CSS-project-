@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Due</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+            height: 100vh;
+            padding-top: 50px; 
+        }
+
+        .error-msg {
+            background-color: yellow;
+            width: 400px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            color: black;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+
+        .reminder-heading {
+            color: red;
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .reminder-message {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .due_date {
+            font-size: 22px;
+            font-weight: bold;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-msg">
+        <div class="reminder-heading">⚠️ Payment Due Reminder</div>
+        <div class="reminder-message">
+            Your electricity bill is due soon. Please make sure to pay to avoid service interruption.
+        </div>
+        <div class="due_date">Due Date: April 25, 2025</div>
+    </div>
+</body>
+</html>
